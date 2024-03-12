@@ -18,7 +18,7 @@
         <div class="row">
             <div class="col">
                 <h1 class="my-5">Formulário de Contato</h1>
-                <form action="enviar.php" method="POST" class="bg-dark p-4 rounded text-light">
+                <form action="enviar-form.php" method="POST" class="bg-dark p-4 rounded text-light">
                     <div class="mb-3">
                         <input type="text" name="nome" placeholder="Digite seu Nome" class="form-control" >
                     </div>
