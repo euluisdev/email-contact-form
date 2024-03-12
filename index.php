@@ -14,12 +14,23 @@
 </head>
 
 <body>
-    <div id="container">
-        <div id="row">
-            <div id="col">
+    <div class="container">
+        <div class="row">
+            <div class="col">
                 <h1 class="my-5">Formulário de Contato</h1>
-                <form action="enviar" method="POST">
-                    
+                <form action="enviar.php" method="POST" class="bg-dark p-4 rounded text-light">
+                    <div class="mb-3">
+                        <input type="text" name="nome" placeholder="Digite seu Nome" class="form-control" >
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" name="email" placeholder="Digite seu melhor email" class="form-control" >
+                    </div>
+                    <div class="mb-3">
+                        <textarea name="Mensagem" class="form-control" rows="3" placeholder="Digite sua mensagem"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-secondary">Enviar</button>
+                    </div>
                 </form>
             </div>
         </div>
